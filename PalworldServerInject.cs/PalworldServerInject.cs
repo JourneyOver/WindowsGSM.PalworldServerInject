@@ -17,7 +17,7 @@ namespace WindowsGSM.Plugins {
       name = "WindowsGSM.PalworldServerInject", // WindowsGSM.XXXX
       author = "ohmcodes, JourneyOver",
       description = "WindowsGSM plugin for supporting Palworld Dedicated Server",
-      version = "1.0",
+      version = "1.1",
       url = "https://github.com/JourneyOver/WindowsGSM.PalworldServerInject", // Github repository link (Best practice)
       color = "#1E8449" // Color Hex
     };
@@ -32,7 +32,9 @@ namespace WindowsGSM.Plugins {
     public string Error, Notice;
 
     // Game server Fixed variables
-    public override string StartPath =>  @"Pal\Binaries\Win64\PalServerInject.exe"; // Game server start path
+    public override string StartPath => File.Exists(Functions.ServerPath.GetServersServerFiles(_serverData.ServerID, @"Pal\Binaries\Win64\PalServerInject.exe"))
+    ? @"Pal\Binaries\Win64\PalServerInject.exe"
+    : @"Pal\Binaries\Win64\PalServer-Win64-Test-Cmd.exe"; // Game server start path
     public string FullName = "Palworld Dedicated Server (Modded)"; // Game server FullName
     public bool AllowsEmbedConsole = false;  // Does this server support output redirect?
     public int PortIncrements = 1; // This tells WindowsGSM how many ports should skip after installation
