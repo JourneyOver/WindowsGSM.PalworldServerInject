@@ -19,7 +19,7 @@
 1. Download [UE4SS Xinput](https://github.com/UE4SS-RE/RE-UE4SS/releases)
 2. Download [Palworld-ServerInjector](https://github.com/N00byKing/PalWorld-ServerInjector/releases)
 3. Extract `UE4SS Xinput` and copy the contents to the `Pal\Binaries\Win64` folder.
-4. Extract `Palworld-ServerInjector` and copy only `PalServerInject.exe`, `UE4SS_Signatures` and `UE4SS.dll`
+4. Extract `Palworld-ServerInjector` and copy only `PalServerInject.exe`, `UE4SS_Signatures` folder and `UE4SS.dll` to the `Pal\Binaries\Win64` folder.
 5. Grab any mods that will work on dedicated servers from [NexusMods/Palworld](https://www.nexusmods.com/palworld) and follow installation guides on nexus for each mod you install (pathing on where the mods need to be installed are different for various types of mods)
 
 ### Official Documentation
