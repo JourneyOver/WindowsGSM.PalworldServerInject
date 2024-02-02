@@ -9,7 +9,7 @@
 
 ## Plugin Installation:
 1. Download the latest release.
-2. Extract and move the **Palworld.cs** folder to the **plugins** folder.
+2. Extract and move the **PalworldServerInject.cs** folder to the **plugins** folder.
    - OR -
    Press the Puzzle Icon in the bottom left corner, navigate to the plugin zip file, and install it.
 3. Click the **[RELOAD PLUGINS]** button or restart WindowsGSM.
@@ -56,6 +56,7 @@ All these params are available to be set automatically by WGSM
 
 ### Config Guide
 I've tried setting up PublicPort and PublicIP; from here, it looks like it gets overridden by launch parameters, and it's better than changing here
+- Run the server to generate the Saved Folder files and Stop
 - Copy all the contents of `\DefaultPalWorldSettings.ini` to `\Pal\Saved\Config\WindowsServer\PalWorldSettings.ini`
 - Change ServerName
 - Change PublicIP= x.x.x.x (Local Server IP e.g., 192.168.x.x)
