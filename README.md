@@ -16,11 +16,11 @@
 4. Navigate to "Servers," click "Install Game Server," and select "Palworld Dedicated Server (Modded) [PalworldServerInject.cs]."
 
 ## Mod Installation (Required before starting server):
-1. Download [UE4SS Xinput](https://github.com/UE4SS-RE/RE-UE4SS/releases)
-2. Download [Palworld-ServerInjector](https://github.com/N00byKing/PalWorld-ServerInjector/releases)
-3. Extract `UE4SS Xinput` and copy the contents to the `Pal\Binaries\Win64` folder.
-4. Extract `Palworld-ServerInjector` and copy only `PalServerInject.exe`, `UE4SS_Signatures` folder and `UE4SS.dll` to the `Pal\Binaries\Win64` folder.
-5. Grab any mods that will work on dedicated servers from [NexusMods/Palworld](https://www.nexusmods.com/palworld) and follow installation guides on nexus for each mod you install (pathing on where the mods need to be installed are different for various types of mods)
+1. Download the latest release of [UE4SS Experimental](https://github.com/UE4SS-RE/RE-UE4SS/releases/tag/experimental) (As of this commit it would be `UE4SS_v2.5.2-605-g92624ab.zip`).
+2. Download [Palworld-ServerInjector](https://github.com/N00byKing/PalWorld-ServerInjector/releases).
+3. Extract the contents of the `UE4SS` zip file, excluding the readme and changelog, and paste them into the `Pal\Binaries\Win64` folder.
+4. Extract `Palworld-ServerInjector`, and copy only `PalServerInject.exe` and the `UE4SS_Signatures` folder into the `Pal\Binaries\Win64` folder.
+5. Obtain compatible mods for dedicated servers from [NexusMods/Palworld](https://www.nexusmods.com/palworld) and follow the installation guides on Nexus for each mod. Note that the installation paths may vary depending on the mod type.
 
 ### Official Documentation
 🗃️ [Palworld Dedicated Server Documentation](https://tech.palworldgame.com/dedicated-server-guide)
