@@ -1,3 +1,5 @@
+EDIT: THIS IS NO LONGER NEEDED AS OF 3.0.0 RELEASE OF EU4SS SINCE IT NO LONGER REQUIRES PALWORLD SERVER INJECTOR TO WORK. INSTEAD USE [WindowsGSM.Palworld-Modded](https://github.com/TheModdersDen/WindowsGSM.Palworld-Modded) FOR MODDED EXPERIENCE!
+
 # WindowsGSM.PalworldServerInject Plugin
 
 🧩 This WindowsGSM plugin simplifies the installation of Palworld Dedicated servers with mod support.
